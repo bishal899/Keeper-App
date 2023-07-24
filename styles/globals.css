@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    width: 100%;
+    margin-bottom: 9px;
+    font-size: 19px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.text {
+
+}
+
+.content {
+
+}
+
+.input_div, .note_div {
+    box-shadow: 3px 3px 15px 3px rgba(0, 0, 0, 0.2);
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    line-height: 0%;
+}
